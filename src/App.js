@@ -8,7 +8,7 @@ import Error from './component/Error'
 
 function App() {
   return (
-    <HashRouter basename='/react-router' >
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Header />}>
           <Route index element={<Home />} />
