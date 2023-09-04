@@ -4,7 +4,8 @@ import Home from './component/Home'
 import Header from './component/Header'
 import About from './component/About'
 import Contact from './component/Contact'
-import Error from './component/Error'
+import Error from './component/Error';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
